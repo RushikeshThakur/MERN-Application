@@ -1,12 +1,16 @@
-# MERN
-Simple Mern application
+# MERN APPLICATION
+
+Simple Mern application for student Application
+
+===========================================================================================================================
+===========================================================================================================================
 
 create database studentsrecords;
 use studentsrecords;
 
 create table users(
-Username varchar(50) primary key,
-Password varchar(50) not null
+   Username varchar(50) primary key,
+   Password varchar(50) not null
 );
 
 
@@ -23,10 +27,13 @@ select * from students;
 select * from users;
 
 
+****************************************************************************************************************************
+***************************************************************************************************************************
+
+# Execute the step shown below.
 
 
-
-1. Go to sql folder and run all the commands on workbench
+1. Execute the above sql query on Mysql-workbench.
 
 2. Go to node folder- Install the package - npm install
 
